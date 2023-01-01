@@ -16,6 +16,10 @@ public class Configurations implements WebMvcConfigurer {
 	
 	public static final String EMAIL_SUBJECT = "Weekly-Status Report of the Project: %s as of: %s";
 	
+	public static final String EMAIL_NOTIFICATION_ON_SUCCESS = "Unable to send an email report for the Weekly-Status ID: %d from the Project ID: %d.";
+			
+	public static final String EMAIL_NOTIFICATION_ON_FAILURE = "An email report for the Weekly-Status ID: %d from the Project ID: %d has been sent successfully.";
+	
 	@Value("${cors.origin.url}")
 	private String CORS_ORIGIN_URL;
 	
