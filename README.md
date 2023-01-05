@@ -109,7 +109,7 @@ or
   mvn clean package -Dmaven.test.skip=true
 ```
 
-Run the above packaged source code through java command line. For that, go to the target directory
+Run the above packaged source code through java command line. For that, go to the project's target directory
 
 ```bash
   java -jar report-notification-rest-api-0.0.1-SNAPSHOT.jar
@@ -126,6 +126,12 @@ By default, the API will be available at
 ```bash
   http://localhost:<PORT_NO>/api/v1/reports
 ```
+
+## Documentation
+
+By default, the Swagger based JSON API documentation of this project will be available at
+
+- Swagger API Doc - [http://localhost:<PORT_NO>/swagger-ui/index.html](http://localhost:<PORT_NO>/swagger-ui/index.html)
 
 ## Running Tests
 
